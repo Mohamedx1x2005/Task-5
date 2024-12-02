@@ -1,0 +1,114 @@
+body {
+    margin: 0;
+    font-size: 0;
+}
+
+.Black {
+    background-color: black;
+    color: white;
+}
+
+.Black, .White {
+    display: inline-block;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 30px;
+    text-align: center;
+    width: 12.5%;
+    line-height: 300px;
+    height: 300px;
+    border: none;
+}
+
+
+.Black:hover {
+    background-color: white;
+    transition: 0.2s;
+}
+
+.White:hover {
+    background-color: black;
+    transition: 0.2s;
+}
+
+.Table {
+    background: linear-gradient(to right, #341c95, #7a279b, #9f5a9c);
+    height: 400px;
+}
+
+.table {
+    margin: auto;
+    font-size: 20px;
+    height: 300px;
+    width: 1000px;
+    border: 1px solid white;
+    color: white;
+    position: relative;
+    top: 50px;
+    box-shadow: 0 4px 8px rgb(0, 0, 0);
+}
+
+td {
+    border-bottom: 1px solid white;
+    padding: 10px;
+}
+
+th {
+    padding: 10px;
+    height: 50px;
+}
+
+thead tr{
+    background-color: rgb(255, 106, 0);
+    height: 50px;
+    text-align: left;
+}
+
+tr:hover {
+    background: rgba(255, 255, 255, 0.451);
+}
+
+#Last {
+    border: 0;
+}
+
+.Image {
+    margin: auto;
+}
+
+img {
+    width: 400px;
+}
+
+img:hover{
+    border-radius: 50%;
+    transition-duration: 0.2s;
+}
+
+#im1:hover {
+    filter: blur(2px);
+}
+
+#im2:hover {
+    filter:grayscale(1);
+}
+
+#im3:hover {
+    filter:invert(1);
+}
+
+#im4:hover {
+    filter:contrast(200%);
+}
+
+.Text {
+    padding-top: 50px;
+    font-size: 20px;
+    width: 1000px;
+    margin: auto;
+}
+
+.Text::selection
+{
+    background-color: rgb(0, 0, 0);
+    color: white;
+}
